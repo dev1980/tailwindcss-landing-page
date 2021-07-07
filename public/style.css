@@ -584,35 +584,13 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1124px) {
   .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
+    max-width: 1124px;
   }
 }
 
@@ -22346,16 +22324,88 @@ video {
   vertical-align: text-bottom;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-0 {
+  font-family: P;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.font-1 {
+  font-family: o;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-2 {
+  font-family: p;
+}
+
+.font-3 {
+  font-family: p;
+}
+
+.font-4 {
+  font-family: i;
+}
+
+.font-5 {
+  font-family: n;
+}
+
+.font-6 {
+  font-family: s;
+}
+
+.font-7 {
+  font-family: ';
+}
+
+.font-8 {
+  font-family: ,;
+}
+
+.font-9 {
+  font-family:  ;
+}
+
+.font-10 {
+  font-family: s;
+}
+
+.font-11 {
+  font-family: a;
+}
+
+.font-12 {
+  font-family: n;
+}
+
+.font-13 {
+  font-family: s;
+}
+
+.font-14 {
+  font-family: -;
+}
+
+.font-15 {
+  font-family: s;
+}
+
+.font-16 {
+  font-family: e;
+}
+
+.font-17 {
+  font-family: r;
+}
+
+.font-18 {
+  font-family: i;
+}
+
+.font-19 {
+  font-family: f;
+}
+
+.font-20 {
+  font-family: ;;
 }
 
 .text-xs {
@@ -32227,35 +32277,13 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 1124px) {
     .sm\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .sm\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .sm\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .sm\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .sm\:container {
-      max-width: 1536px;
+      max-width: 1124px;
     }
   }
 
@@ -53923,16 +53951,88 @@ video {
     vertical-align: text-bottom;
   }
 
-  .sm\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .sm\:font-0 {
+    font-family: P;
   }
 
-  .sm\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .sm\:font-1 {
+    font-family: o;
   }
 
-  .sm\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .sm\:font-2 {
+    font-family: p;
+  }
+
+  .sm\:font-3 {
+    font-family: p;
+  }
+
+  .sm\:font-4 {
+    font-family: i;
+  }
+
+  .sm\:font-5 {
+    font-family: n;
+  }
+
+  .sm\:font-6 {
+    font-family: s;
+  }
+
+  .sm\:font-7 {
+    font-family: ';
+  }
+
+  .sm\:font-8 {
+    font-family: ,;
+  }
+
+  .sm\:font-9 {
+    font-family:  ;
+  }
+
+  .sm\:font-10 {
+    font-family: s;
+  }
+
+  .sm\:font-11 {
+    font-family: a;
+  }
+
+  .sm\:font-12 {
+    font-family: n;
+  }
+
+  .sm\:font-13 {
+    font-family: s;
+  }
+
+  .sm\:font-14 {
+    font-family: -;
+  }
+
+  .sm\:font-15 {
+    font-family: s;
+  }
+
+  .sm\:font-16 {
+    font-family: e;
+  }
+
+  .sm\:font-17 {
+    font-family: r;
+  }
+
+  .sm\:font-18 {
+    font-family: i;
+  }
+
+  .sm\:font-19 {
+    font-family: f;
+  }
+
+  .sm\:font-20 {
+    font-family: ;;
   }
 
   .sm\:text-xs {
@@ -63392,35 +63492,13 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 1124px) {
     .md\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .md\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .md\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .md\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .md\:container {
-      max-width: 1536px;
+      max-width: 1124px;
     }
   }
 
@@ -85088,16 +85166,88 @@ video {
     vertical-align: text-bottom;
   }
 
-  .md\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .md\:font-0 {
+    font-family: P;
   }
 
-  .md\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .md\:font-1 {
+    font-family: o;
   }
 
-  .md\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .md\:font-2 {
+    font-family: p;
+  }
+
+  .md\:font-3 {
+    font-family: p;
+  }
+
+  .md\:font-4 {
+    font-family: i;
+  }
+
+  .md\:font-5 {
+    font-family: n;
+  }
+
+  .md\:font-6 {
+    font-family: s;
+  }
+
+  .md\:font-7 {
+    font-family: ';
+  }
+
+  .md\:font-8 {
+    font-family: ,;
+  }
+
+  .md\:font-9 {
+    font-family:  ;
+  }
+
+  .md\:font-10 {
+    font-family: s;
+  }
+
+  .md\:font-11 {
+    font-family: a;
+  }
+
+  .md\:font-12 {
+    font-family: n;
+  }
+
+  .md\:font-13 {
+    font-family: s;
+  }
+
+  .md\:font-14 {
+    font-family: -;
+  }
+
+  .md\:font-15 {
+    font-family: s;
+  }
+
+  .md\:font-16 {
+    font-family: e;
+  }
+
+  .md\:font-17 {
+    font-family: r;
+  }
+
+  .md\:font-18 {
+    font-family: i;
+  }
+
+  .md\:font-19 {
+    font-family: f;
+  }
+
+  .md\:font-20 {
+    font-family: ;;
   }
 
   .md\:text-xs {
@@ -94557,35 +94707,13 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 1124px) {
     .lg\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .lg\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .lg\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .lg\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .lg\:container {
-      max-width: 1536px;
+      max-width: 1124px;
     }
   }
 
@@ -116253,16 +116381,88 @@ video {
     vertical-align: text-bottom;
   }
 
-  .lg\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .lg\:font-0 {
+    font-family: P;
   }
 
-  .lg\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .lg\:font-1 {
+    font-family: o;
   }
 
-  .lg\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .lg\:font-2 {
+    font-family: p;
+  }
+
+  .lg\:font-3 {
+    font-family: p;
+  }
+
+  .lg\:font-4 {
+    font-family: i;
+  }
+
+  .lg\:font-5 {
+    font-family: n;
+  }
+
+  .lg\:font-6 {
+    font-family: s;
+  }
+
+  .lg\:font-7 {
+    font-family: ';
+  }
+
+  .lg\:font-8 {
+    font-family: ,;
+  }
+
+  .lg\:font-9 {
+    font-family:  ;
+  }
+
+  .lg\:font-10 {
+    font-family: s;
+  }
+
+  .lg\:font-11 {
+    font-family: a;
+  }
+
+  .lg\:font-12 {
+    font-family: n;
+  }
+
+  .lg\:font-13 {
+    font-family: s;
+  }
+
+  .lg\:font-14 {
+    font-family: -;
+  }
+
+  .lg\:font-15 {
+    font-family: s;
+  }
+
+  .lg\:font-16 {
+    font-family: e;
+  }
+
+  .lg\:font-17 {
+    font-family: r;
+  }
+
+  .lg\:font-18 {
+    font-family: i;
+  }
+
+  .lg\:font-19 {
+    font-family: f;
+  }
+
+  .lg\:font-20 {
+    font-family: ;;
   }
 
   .lg\:text-xs {
@@ -125722,35 +125922,13 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 1124px) {
     .xl\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .xl\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .xl\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .xl\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .xl\:container {
-      max-width: 1536px;
+      max-width: 1124px;
     }
   }
 
@@ -147418,16 +147596,88 @@ video {
     vertical-align: text-bottom;
   }
 
-  .xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .xl\:font-0 {
+    font-family: P;
   }
 
-  .xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .xl\:font-1 {
+    font-family: o;
   }
 
-  .xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .xl\:font-2 {
+    font-family: p;
+  }
+
+  .xl\:font-3 {
+    font-family: p;
+  }
+
+  .xl\:font-4 {
+    font-family: i;
+  }
+
+  .xl\:font-5 {
+    font-family: n;
+  }
+
+  .xl\:font-6 {
+    font-family: s;
+  }
+
+  .xl\:font-7 {
+    font-family: ';
+  }
+
+  .xl\:font-8 {
+    font-family: ,;
+  }
+
+  .xl\:font-9 {
+    font-family:  ;
+  }
+
+  .xl\:font-10 {
+    font-family: s;
+  }
+
+  .xl\:font-11 {
+    font-family: a;
+  }
+
+  .xl\:font-12 {
+    font-family: n;
+  }
+
+  .xl\:font-13 {
+    font-family: s;
+  }
+
+  .xl\:font-14 {
+    font-family: -;
+  }
+
+  .xl\:font-15 {
+    font-family: s;
+  }
+
+  .xl\:font-16 {
+    font-family: e;
+  }
+
+  .xl\:font-17 {
+    font-family: r;
+  }
+
+  .xl\:font-18 {
+    font-family: i;
+  }
+
+  .xl\:font-19 {
+    font-family: f;
+  }
+
+  .xl\:font-20 {
+    font-family: ;;
   }
 
   .xl\:text-xs {
@@ -156887,35 +157137,13 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 1124px) {
     .\32xl\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .\32xl\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .\32xl\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .\32xl\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .\32xl\:container {
-      max-width: 1536px;
+      max-width: 1124px;
     }
   }
 
@@ -178583,16 +178811,88 @@ video {
     vertical-align: text-bottom;
   }
 
-  .\32xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .\32xl\:font-0 {
+    font-family: P;
   }
 
-  .\32xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .\32xl\:font-1 {
+    font-family: o;
   }
 
-  .\32xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .\32xl\:font-2 {
+    font-family: p;
+  }
+
+  .\32xl\:font-3 {
+    font-family: p;
+  }
+
+  .\32xl\:font-4 {
+    font-family: i;
+  }
+
+  .\32xl\:font-5 {
+    font-family: n;
+  }
+
+  .\32xl\:font-6 {
+    font-family: s;
+  }
+
+  .\32xl\:font-7 {
+    font-family: ';
+  }
+
+  .\32xl\:font-8 {
+    font-family: ,;
+  }
+
+  .\32xl\:font-9 {
+    font-family:  ;
+  }
+
+  .\32xl\:font-10 {
+    font-family: s;
+  }
+
+  .\32xl\:font-11 {
+    font-family: a;
+  }
+
+  .\32xl\:font-12 {
+    font-family: n;
+  }
+
+  .\32xl\:font-13 {
+    font-family: s;
+  }
+
+  .\32xl\:font-14 {
+    font-family: -;
+  }
+
+  .\32xl\:font-15 {
+    font-family: s;
+  }
+
+  .\32xl\:font-16 {
+    font-family: e;
+  }
+
+  .\32xl\:font-17 {
+    font-family: r;
+  }
+
+  .\32xl\:font-18 {
+    font-family: i;
+  }
+
+  .\32xl\:font-19 {
+    font-family: f;
+  }
+
+  .\32xl\:font-20 {
+    font-family: ;;
   }
 
   .\32xl\:text-xs {
